@@ -279,4 +279,13 @@
 	'user ws config option desc task_display_limit' => '出于性能考虑，此数值不可太大。填“0”则不限制。',
 	'config option name use_owner_company_logo_at_header' => '使用公司Logo作为系统图标',
 	'config option desc use_owner_company_logo_at_header' => '公司Logo显示于屏幕右上角。刷新（按F5）页面应用变更。Logo建议大小50 x 50像素。',
+
+    //User-box actions
+    'brand colors' => '页面颜色',
+    'head color' => '顶部颜色',
+    'tabs color' => '标签页颜色',
+    'font color' => '字体颜色',
+    'title color' => '标题颜色',
+    'save colors' => '保存颜色',
+    'members color' => '维度颜色',
 ); ?>

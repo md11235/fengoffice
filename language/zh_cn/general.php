@@ -219,4 +219,6 @@
 	'view all activity' => '查看所有动态...',
 	'advanced' => '高级',
 	'workspace and tags' => '工作区和标签',
+    'viewing all information' => '查看所有信息',
+    'change logo' => '更改徽标',
 ); ?>

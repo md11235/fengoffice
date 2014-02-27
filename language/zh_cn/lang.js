@@ -690,5 +690,9 @@ addLangs({
 	'work week view': '工作周视图',
 	'mark spam': '表为垃圾信息',
 	'mark ham': '表为有用信息',
-	'select all tasks': '选择所有任务'
+	'select all tasks': '选择所有任务',
+    'filter members' : '按成员过滤',
+    'see more' : '查看更多',
+    'contacts': '联系人',
+    'archived' : '已存档',
 });
