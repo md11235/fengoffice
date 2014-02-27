@@ -74,7 +74,7 @@
 	'update company permissions hint' => '检查工作区来为这个公司设置访问权限。注意：你将总是需要为可以访问和管理选中的工作区的公司成员指定访问权限（你可以通过工作区成员也或者通过用户配置文件来做这些事）。',
 	'footer copy with homepage' => '© {0} <a class="internalLink" href="{1}">{2}</a>。保留所有权利。',
 	'footer copy without homepage' => '© {0} {1}  保留所有权利。',
-	'footer powered' => 'Powered by <a target="_blank" href="{0}">{1}</a>，系统汉化：<a target="_blank" href="mailto:shellwayhe@163.com">Shellway He</a>，<a target="_blank" href="http://blog.shellway.cn">我的BLOG</a>',
+	'footer powered' => 'Powered by <a target="_blank" href="{0}">{1}</a>',
 	'all documents' => '全部文档',
 	'created by me' => '我创建的',
 	'by project' => '通过工作区',
