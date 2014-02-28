@@ -290,4 +290,13 @@
     'members color' => '维度颜色', // 待商榷
     'organization data' => '机构数据',
     'dimensions' => '工作区域', // 待商榷
+
+    'organization data' => '机构数据',
+    'dimensions' => '工作区域',
+    'module permissions' => '可见模块',
+    'module permission uncheck warning' => 'Module Permission Uncheck Warning（待解释）',
+    'can_manage_billing'=>'可以管理账单',
+    'can_see_assigned_to_other_tasks'=>'可以查看其他用户的任务',
+    'can_manage_dimensions'=>'Can manage dimensions（待解释）',
+    'can_manage_dimension_members'=>'Can manage dimension members（待解释）',
 ); ?>
