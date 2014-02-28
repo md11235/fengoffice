@@ -278,4 +278,5 @@
 	'urgent priority' => '紧急',
 	'attachment from email' => '附加到邮件“{0}”',
     'work performed' => '做过的工作',
+    'assigned by' => '分配者',
 ); ?>

@@ -698,4 +698,6 @@ addLangs({
     'add first task' : '添加第一个任务',
     'estimated time' : '估计所需时间',
     'add sub task' : '添加子任务',
+    'assigned by' : '分配者',
+    'me' : '我',
 });
