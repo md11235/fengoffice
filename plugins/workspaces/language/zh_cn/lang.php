@@ -17,4 +17,12 @@
     'user config option desc lp_dim_workspaces_show_as_column' => 'Show the workspaces in a separate column and not next to the list item\'s name.',
 	'user config option name lp_dim_tags_show_as_column' => '在单独一列中显示标签',
     'user config option desc lp_dim_tags_show_as_column' => 'Show the tags in a separate column and not next to the list item\'s name.',
+
+    /* 
+     * 'add new relation workspaces' => '选择工作区域',
+     * 'add new relation tags' => '选择标签',
+     * 'filter by workspaces' => '工作区域',
+     * 'filter by tags' => '标签',
+     */
+
 );
