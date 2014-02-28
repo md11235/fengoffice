@@ -242,6 +242,11 @@
 	'External Collaborator' => '外部合作人员',
 	'Guest Customer' => '客户',
 	'Guest' => '客人',
+
     'Non-Exec Director' => '无',
     'specify username?' => '指定用户名',
+    'Non-Exec Director' => '无',
+    'specify username?' => '指定用户名',
+    'check all' => '全选',
+    'uncheck all' => '全不选',
 ); ?>
