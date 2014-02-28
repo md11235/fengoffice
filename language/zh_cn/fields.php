@@ -225,4 +225,7 @@
 	'field MailContents bcc' => '密送',
 	'field Users type' => '用户类型',
 	'field MailContents received_date' => '接收日期',
+    'field ProjectTasks percent_completed' => '完成进度',
+    'related to' => '关联到',
+    'context' => '关联到',
 ); ?>

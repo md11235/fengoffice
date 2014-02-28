@@ -221,4 +221,8 @@
 	'workspace and tags' => '工作区和标签',
     'viewing all information' => '查看所有信息',
     'change logo' => '更改徽标',
+    'percent completed' => '完成进度',
+    'field Objects percent_completed' => '完成进度',
+    'not related' => '无关联项',
+    'percent completed detail' => '注意：如果本任务设定有估计所需时间，进度根据已经花费的时间和估计所需时间计算；否则可以手动编辑任务进度',
 ); ?>

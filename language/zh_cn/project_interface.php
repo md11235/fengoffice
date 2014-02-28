@@ -277,4 +277,5 @@
 	'apply assignee to subtasks' => '将接收人应用到子任务',
 	'urgent priority' => '紧急',
 	'attachment from email' => '附加到邮件“{0}”',
+    'work performed' => '做过的工作',
 ); ?>

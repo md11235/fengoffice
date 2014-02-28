@@ -695,4 +695,7 @@ addLangs({
     'see more' : '查看更多',
     'contacts': '联系人',
     'archived' : '已存档',
+    'add first task' : '添加第一个任务',
+    'estimated time' : '估计所需时间',
+    'add sub task' : '添加子任务',
 });
