@@ -287,5 +287,7 @@
     'font color' => '字体颜色',
     'title color' => '标题颜色',
     'save colors' => '保存颜色',
-    'members color' => '维度颜色',
+    'members color' => '维度颜色', // 待商榷
+    'organization data' => '机构数据',
+    'dimensions' => '工作区域', // 待商榷
 ); ?>
