@@ -249,4 +249,5 @@
     'specify username?' => '指定用户名',
     'check all' => '全选',
     'uncheck all' => '全不选',
+    'advanced search' => '高级搜索',
 ); ?>

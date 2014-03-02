@@ -198,7 +198,7 @@
 	'edit email account' => '编辑 {0}',
 	'no emails in this project' => '在本工作区没有电子邮件',
 	'mail content' => '电子邮件内容',
-	'mail account name description' => '名称 被使用来标识这个帐户（如：\'家庭邮件帐户\')',
+	'mail account name description' => '名称 被使用来标识这个帐户(如：\'家庭邮件帐户\')',
 	'mail account id description' => '帐户用户名 或者 ID 被使用来连接到服务器(如“john@mailserver.com\')',
 	'mail account password description' => '连接到这个帐户需要的 密码 。',
 	'mail account server description' => '邮件服务器的地址，(如：\'pop3.mailserver.com\')',
