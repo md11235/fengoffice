@@ -1373,7 +1373,7 @@ class Contact extends BaseContact {
     	} else {
     		$pg = array_var(self::$pg_cache, $type);
     	}
-    	return $pg->getName();
+    	return lang($pg->getName());
     }
     
 

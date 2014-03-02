@@ -613,4 +613,5 @@
 	'success mark as ham' => '{0} emails removed from Junk',
 	'error mark as ham' => 'Error removing {0} emails from Junk',
     'disable' => '禁用',
+    'no groups in company' => '还没有建立分组',
 ); ?>
