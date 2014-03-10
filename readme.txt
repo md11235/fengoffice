@@ -1,4 +1,4 @@
-	About Feng Office 2.5.1 zhang
+	About Feng Office 2.5.1 beijing
 	================================
 	
 	Feng Office is a Collaboration Platform and Project Management System.
@@ -64,7 +64,6 @@
 	This can be solved by setting "memory_limit=32" in php.ini.
 	
 	Upgrade
-	=======
 	
 	There currently are two kind of upgrades:
 	1- From 2.X to 2.X (or from 1.X to 1.X)
