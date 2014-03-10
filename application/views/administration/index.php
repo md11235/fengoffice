@@ -26,6 +26,7 @@ if (can_manage_security(logged_user())) {
 		'extra' => '<a class="internalLink coViewAction ico-add" href="' . owner_company()->getAddGroupUrl() . '">' . lang('add group') . '</a>',
 	);
 }
+/** @zhangmeng delete
 if (can_manage_security(logged_user()) && Plugins::instance()->isActivePlugin('mail')) {
 	$icons[] = array(
 		'ico' => 'ico-large-email',
@@ -43,8 +44,8 @@ if (can_manage_templates(logged_user())) {
 		'extra' => '<a class="internalLink coViewAction ico-add" href="' . get_url('template','add') . '">' . lang('add template') . '</a>',
 	);
 }
-
-
+ */
+/**
 if (can_manage_billing(logged_user())) {
 	$icons[] = array(
 		'ico' => 'ico-large-billing',
@@ -53,7 +54,18 @@ if (can_manage_billing(logged_user())) {
 		'extra' => '<a class="internalLink coViewAction ico-add" href="' . get_url('billing', 'add') . '">' . lang('add billing category') . '</a>',
 	);	
 }
+*/
 
+/** @zhangmeng add */
+if (false) {
+	$icons[] = array(
+		'ico' => 'ico-large-billing',
+		'url' => get_url('billing', 'index'),
+		'name' => lang('billing'),
+		'extra' => '<a class="internalLink coViewAction ico-add" href="' . get_url('billing', 'add') . '">' . lang('add billing category') . '</a>',
+	);	
+}
+/** @zhangmeng delete
 if (can_manage_configuration(logged_user())) {
 	$icons[] = array(
 		'ico' => 'ico-large-company',
@@ -67,13 +79,6 @@ if (can_manage_configuration(logged_user())) {
 		'name' => lang('custom properties'),
 		'extra' => '',
 	);
-	/*
-	$icons[] = array(
-		'ico' => 'ico-large-object-subtypes',
-		'url' => get_url('administration', 'object_subtypes'),
-		'name' => lang('object subtypes'),
-		'extra' => '',
-	);*/
 	
 	$icons[] = array(
 		'ico' => 'ico-large-configuration',
@@ -87,14 +92,6 @@ if (can_manage_configuration(logged_user())) {
 		'name' => lang('administration tools'),
 		'extra' => '',
 	);
-	/*FIXME if (!defined('ALLOW_UPGRADING') || ALLOW_UPGRADING) {
-		$icons[] = array(
-			'ico' => 'ico-large-upgrade',
-			'url' => get_url('administration', 'upgrade'),
-			'name' => lang('upgrade'),
-			'extra' => '',
-		);
-	}*/
 	if (!defined('ALLOW_CONFIGURING_CRON') || ALLOW_CONFIGURING_CRON) {
 		$icons[] = array(
 			'ico' => 'ico-large-cron',
@@ -111,6 +108,8 @@ if (can_manage_configuration(logged_user())) {
 		'extra' => '',
 	);
 }
+
+
 if (can_manage_dimension_members(logged_user())) {
 	$icons[] = array(
 		'ico' => 'ico-large-workspace',
@@ -138,7 +137,7 @@ if (defined("PLUGIN_MANAGER") && PLUGIN_MANAGER && can_manage_plugins(logged_use
 		'extra' => '',
 	);
 }
-
+*/
 Hook::fire('render_administration_icons', null, $icons);
 if (count($icons > 0)) {}
 ?>
