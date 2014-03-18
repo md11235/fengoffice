@@ -19,14 +19,14 @@
     	'can_manage_security' => DATA_TYPE_BOOLEAN, 
     	'can_manage_configuration' => DATA_TYPE_BOOLEAN,
     	'can_manage_templates' => DATA_TYPE_BOOLEAN,  
-    	'can_manage_time' => DATA_TYPE_BOOLEAN,
-    	'can_add_mail_accounts' => DATA_TYPE_BOOLEAN,
-    	'can_manage_dimensions' => DATA_TYPE_BOOLEAN,
-	    'can_manage_dimension_members' => DATA_TYPE_BOOLEAN,
+    	// 'can_manage_time' => DATA_TYPE_BOOLEAN,
+    	// 'can_add_mail_accounts' => DATA_TYPE_BOOLEAN,
+    	/*'can_manage_dimensions' => DATA_TYPE_BOOLEAN,
+          'can_manage_dimension_members' => DATA_TYPE_BOOLEAN,*/
 	    'can_manage_tasks' => DATA_TYPE_BOOLEAN,
 	    'can_task_assignee' => DATA_TYPE_BOOLEAN,
-	    'can_manage_billing' => DATA_TYPE_BOOLEAN,
-	    'can_view_billing' => DATA_TYPE_BOOLEAN,
+	    // 'can_manage_billing' => DATA_TYPE_BOOLEAN,
+	    // 'can_view_billing' => DATA_TYPE_BOOLEAN,
 	    'can_see_assigned_to_other_tasks' => DATA_TYPE_BOOLEAN,
     );
   
